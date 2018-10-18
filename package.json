@@ -1,0 +1,19 @@
+{
+  "name": "kapsch-snmp-iothub",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asn1-ber": "^1.0.9",
+    "azure-iot-device": "^1.7.4",
+    "azure-iot-device-mqtt": "^1.7.4",
+    "azure-iot-multiplexing-gateway": "0.0.3",
+    "dotenv": "^6.1.0",
+    "net-snmp": "^1.2.4"
+  }
+}

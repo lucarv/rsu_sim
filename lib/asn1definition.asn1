@@ -1,0 +1,22 @@
+BSMCoreData ::= SEQUENCE {
+    msgCount INT,
+    id INT,
+    secMark String,
+    lat Real,
+    long Real,
+    elevation Real,
+    accuracy Real,
+    transmission boolean,
+    speed Real,
+    heading Real,
+    angle Real,
+    accelSet INT,
+    brake ::= SEQUENCE {
+            wheelBrakes boolean,
+            traction Int,
+            abs boolean,
+            scs boolean,
+            brakeBoost boolean,
+            auxBrakes boolean 
+    }  
+}
