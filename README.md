@@ -1,10 +1,13 @@
 # road side unit simulator
 
-## how to run rsu simulator
+## prepare
 1. clone
-2. cd rsu_simulator
-3. edit .env 
-4. node udp_client (on console)  
+2. npm install
+
+## how to run rsu simulator
+1. cd rsu_simulator
+2. edit .env 
+3. node udp_client (on console)  
 
 
 ##how to run rsu gateway
