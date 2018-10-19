@@ -11,7 +11,7 @@ const server = dgram.createSocket('udp4');
 const PORT = process.env.UDP_PORT;
 const HOST = process.env.UDP_HOST;
 
-d2c.bind({
+server.bind({
     address: '0.0.0.0',
     port: settings.ports.udp_raw_d2c
 });
