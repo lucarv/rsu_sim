@@ -42,5 +42,5 @@ if (cluster.isMaster) {
 	});
 } else {
 	require('./udpserver');
-	require('./iothub_client')
+	require('./iothub_client');
 }

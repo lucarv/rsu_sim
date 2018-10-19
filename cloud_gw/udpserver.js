@@ -11,10 +11,15 @@ const server = dgram.createSocket('udp4');
 const PORT = process.env.UDP_PORT;
 const HOST = process.env.UDP_HOST;
 
-server.bind(PORT, HOST);
+d2c.bind({
+    address: '0.0.0.0',
+    port: settings.ports.udp_raw_d2c
+});
 
 server.on('listening', function () {
     var address = server.address();
+    console.log('gateway started on: ' + address.port)
+
     //console.log('listener #' + process.pid + ' on: ' + address.address);
 });
 
